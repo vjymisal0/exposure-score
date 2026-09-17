@@ -1,5 +1,10 @@
 # exposure-score
 
+## Module format
+
+This package is ESM-only. Use `import` syntax in Node.js projects with `type: module`. CommonJS applications can load it with `await import("exposure-score")`.
+
+
 Detect over- or under-exposed photos. Returns a 0-1 score (1 = well-exposed) using luminance histogram analysis - crushed shadows, blown highlights, and overall brightness deviation.
 
 Companion to [`blur-score`](https://www.npmjs.com/package/blur-score): together they cover the two most common "is this photo actually usable" checks for upload pipelines.
