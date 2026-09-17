@@ -1,6 +1,6 @@
 {
   "name": "exposure-score",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Detect over- or under-exposed photos (0-1 score) using luminance histogram analysis",
   "type": "module",
   "main": "./src/index.js",
@@ -12,7 +12,8 @@
     }
   },
   "files": [
-    "src"
+    "src",
+    "CHANGELOG.md"
   ],
   "scripts": {
     "test": "node --test test/*.test.js"
@@ -33,7 +34,7 @@
   "bugs": {
     "url": "https://github.com/vjymisal0/exposure-score/issues"
   },
-  "author": "",
+  "author": "Vijay Misal <misalvijay153@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "sharp": "^0.35.3"
