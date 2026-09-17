@@ -66,3 +66,7 @@ This measures brightness distribution, not photographic intent. A genuinely high
 ## License
 
 MIT
+
+## Limitations
+
+Exposure scores are histogram-based signals and do not understand scene intent, subject lighting, or artistic exposure.
