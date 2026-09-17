@@ -1,14 +1,20 @@
 {
   "name": "exposure-score",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Detect over- or under-exposed photos (0-1 score) using luminance histogram analysis",
   "type": "module",
   "main": "./src/index.js",
   "types": "./src/index.d.ts",
   "exports": {
     ".": {
-      "types": "./src/index.d.ts",
-      "import": "./src/index.js"
+      "import": {
+        "types": "./src/index.d.ts",
+        "default": "./src/index.js"
+      },
+      "require": {
+        "types": "./src/index.d.cts",
+        "default": "./src/index.cjs"
+      }
     }
   },
   "files": [

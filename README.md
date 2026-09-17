@@ -2,7 +2,7 @@
 
 ## Module format
 
-This package is ESM-only. Use `import` syntax in Node.js projects with `type: module`. CommonJS applications can load it with `await import("exposure-score")`.
+This package supports both ESM and CommonJS. CommonJS calls return the same Promises as the ESM API.
 
 
 Detect over- or under-exposed photos. Returns a 0-1 score (1 = well-exposed) using luminance histogram analysis - crushed shadows, blown highlights, and overall brightness deviation.
